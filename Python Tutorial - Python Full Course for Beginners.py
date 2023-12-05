@@ -123,4 +123,10 @@ print(msg)
 
 
 #Lesson 6: String Methods
-
+    #
+course = 'Python for Beginners'
+print(len(course)) #this will show you how many characters there are in your string
+    #use a dot operator to find all the methods to the str
+course.upper() #this will change all the str to upper case
+course.lower() #this will show you the str in lower case
+course.find('P') #this will find the letter P in the str
