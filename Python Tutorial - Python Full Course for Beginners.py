@@ -129,4 +129,26 @@ print(len(course)) #this will show you how many characters there are in your str
     #use a dot operator to find all the methods to the str
 course.upper() #this will change all the str to upper case
 course.lower() #this will show you the str in lower case
-course.find('P') #this will find the letter P in the str
+course.find('P') #this will find the letter P in the str // it is case sensitive
+course.replace('Beginenrs', 'Absolute Beginners') #this will replace the current str to what you put
+'Python' in course #this expression will show if the word is in the string. this will return a boolean expression
+    #the find returns the index and the in returns a boolean value
+
+
+
+#Lesson 7: Arthmetic Operations
+    #you have two types of numbers: integer and float
+10 + 3 #add
+10 - 3 #sub
+10 * 3 #multiply
+10 / 3 #division w float number
+10 // 3 #division w integer number
+10 % 3 #modules: returns remainder of division
+10 ** 3 #exponents
+    #augemented variable for each operation
+x = 10
+x = x + 3
+x += 3 #same concept as the line above
+print(x)
+
+#Lesson 8: Operator Precedence
